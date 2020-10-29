@@ -29,3 +29,5 @@ random_list_10k = make_random_list(10_000)
 # задаем наши списки
 
 print(random_list_100)
+
+# ну вот чет изминил
