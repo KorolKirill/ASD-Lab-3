@@ -36,11 +36,6 @@ for i in listOfLists:
     elif counter == 3:
         print("\n### Random Lists ###")
     print(insertionSort(i))
-
-
-
-	print (bubbleSort(i))
+    print (bubbleSort(i))
 	#print (selectionSort(i))
-
-
     counter += 1
