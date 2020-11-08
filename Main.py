@@ -1,6 +1,7 @@
 import random
 from InsertionSort import *
 from BubleSort import *
+from SelectionSort import *
 
 
 # Метод по созданию упорядоченных списков
@@ -37,5 +38,5 @@ for i in listOfLists:
         print("\n### Random Lists ###")
     print(insertionSort(i))
     print (bubbleSort(i))
-	#print (selectionSort(i))
+    print(SelectionSort(i))
     counter += 1
