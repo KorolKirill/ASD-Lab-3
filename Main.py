@@ -33,7 +33,7 @@ for i in listOfLists:
         print("\n##### Random Lists #####")
     elif counter == 3:
         print("\n\n##### Consistent Lists #####")
-    print("----------")
+    else: print("----------")
     print(bubbleSort(i.copy()))
     print(insertionSort(i.copy()))
     print(SelectionSort(i.copy()))
