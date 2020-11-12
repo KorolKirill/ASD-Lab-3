@@ -1,6 +1,5 @@
 import time
 
-
 def insertionSort(table):
     start = time.time()
 
@@ -14,6 +13,7 @@ def insertionSort(table):
         table[j + 1] = key
 
     end = time.time()
-    estimatedTime = "Insertion sort for " + str(length) + " elements took " + str(end - start) + " seconds"
+    finalTime = 1000 * (end - start)
+    estimatedTime = "Insertion sort for " + str(length) + " elements took " + str(finalTime) + " miliseconds"
 
     return estimatedTime

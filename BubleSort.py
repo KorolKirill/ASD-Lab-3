@@ -1,6 +1,5 @@
 import time
 
-
 def bubbleSort(given_list):
     start = time.time()
 
@@ -13,6 +12,7 @@ def bubbleSort(given_list):
                 given_list[y + 1] = save_element
 
     end = time.time()
-    estimatedTime = "BubbleSort sort for " + str(list_len) + " elements took " + str(end - start) + " seconds"
+    finalTime = 1000 * (end - start)
+    estimatedTime = "BubbleSort sort for " + str(list_len) + " elements took " + str(finalTime) + " miliseconds"
 
     return estimatedTime
