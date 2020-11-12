@@ -14,6 +14,6 @@ def insertionSort(table):
 
     end = time.time()
     finalTime = 1000 * (end - start)
-    estimatedTime = "Insertion sort for " + str(length) + " elements took " + str(finalTime) + " miliseconds"
+    estimatedTime = "Insertion sort for " + str(length) + " elements took " + str(round(finalTime, 3)) + " miliseconds"
 
     return estimatedTime
